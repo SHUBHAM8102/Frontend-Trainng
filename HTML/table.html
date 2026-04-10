@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2 Tables</title>
+    <style>
+        table{
+            border: 3px solid green;
+            border-spacing: 3px;
+        }
+        td,th{
+            padding: 10px;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <!--   table -->
+    <table>    <!--border="2px solid grey"-->
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+            <th>Trainer</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Java</td>
+            <td>Shiv</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Python</td>
+            <td>Rohan</td>   
+        </tr>
+    </table>
+
+    <br>
+    <table > <!--border="2px" style="border-spacing: 2px;"--> 
+        <tr>
+            <th>1</th>
+            <th colspan="4">2</th>
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+            <td colspan="2">4</td>
+            <td colspan="2">5</td>
+            
+        </tr>
+        <tr>
+            <td>6</td>
+            <td colspan="2">7</td>
+            <td>8</td>
+        </tr>
+    </table>
+<br>
+<br>
+    <table>
+        <tr>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+
+        </tr>
+        <tr>
+            <td rowspan="4">Span</td>
+            <td colspan="3">span column</td>
+            
+        </tr>
+        <tr>
+            <td colspan="2">span Column</td>
+            <td rowspan="3">span column</td>
+        </tr>
+        <tr>
+            <td rowspan="2">header</td>
+            <td>spancolumn</td>
+        </tr>
+        <tr>
+            <td>Header</td>
+        </tr>
+    </table>
+</body>
+</html>

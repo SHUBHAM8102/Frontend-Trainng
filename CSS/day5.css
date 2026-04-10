@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a{
+    text-decoration: none;
+    text-decoration: capitalize;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+h1{
+    color: rgb(30, 95, 121);
+    text-align: center;
+    background-color: bisque;
+    padding: 20px;
+    letter-spacing: 20px;
+    text-shadow: 5px 5px 5px rgb(113, 104, 104);
+     font-family: "Saira Stencil", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+p{
+    /* line-height: 40px;
+    word-spacing: 20px; */
+    text-indent: 20px;
+       /*( taking space at starting of line )*/
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+}

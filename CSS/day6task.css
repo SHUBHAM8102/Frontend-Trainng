@@ -1,0 +1,9 @@
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+nav img{
+    height: 50px;
+    width: 50px;
+}
