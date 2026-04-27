@@ -1,0 +1,23 @@
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: gray;
+}
+/* Media query for small screens like mobiles */
+@media (max-width: 767px){
+    .container{
+        background-color: rgb(183, 46, 46);
+    }
+}
+/* Media query for medium screens like  tablets */
+@media(min-width: 768px) and (max-width: 1023px){
+    .container{
+        background-color: rgb(46, 183, 46);
+    }
+}
+/* Media query for large screens like desktops and laptops */
+@media (min-width: 1024px){
+    .container{
+        background-color: gray;
+    }
+}

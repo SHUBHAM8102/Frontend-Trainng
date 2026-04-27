@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Mania</title>
+</head>
+
+<body style="background-color:#eaeaea; font-family: Georgia;">
+
+    <!-- Top Yellow Bar -->
+    <div style="background-color:yellow; padding:5px 20px;">
+        <h2 style="margin:0;">🍕Pizza mania🍕</h2>
+    </div>
+
+    <div style="padding:20px;">
+
+        <h1>🍕Pizza Order Here🍕</h1>
+
+        <form>
+
+            <!-- Left Section -->
+            <div style="margin-left:30px;">
+
+                <p>
+                    <b>First Name:</b>
+                    <input type="text" placeholder="First Name" style="margin-left:60px;">
+                </p>
+
+                <p>
+                    <b>Last Name:</b>
+                    <input type="text" placeholder="Last Name" style="margin-left:62px;">
+                </p>
+
+                <p>
+                    <b>Email:</b>
+                    <input type="email" placeholder="abc@example.com" style="margin-left:88px;">
+                </p>
+
+                <p>
+                    <b>Contact:</b>
+                    <input type="tel" placeholder="Ex-9898989898" style="margin-left:73px;" minlength="10" maxlength="10">
+                </p>
+
+                <p>
+                    <b>Preferred Delivery Date:</b>
+                    <input type="date" style="margin-left:10px;">
+                </p>
+
+                <p>
+                    <b>Size:</b><br>
+                    Small <input type="radio" name="size">
+                    Medium <input type="radio" name="size">
+                    Large <input type="radio" name="size">
+                </p>
+
+                <p>
+                    <mark><b>Outlet:</b></mark>
+                    <select style="margin-left:50px;">
+                        <option>Select Outlet</option>
+                    </select>
+                </p>
+
+                <!-- Menu -->
+                <h2><i>Menu ↓</i></h2>
+
+                <table>
+                    <tr>
+                        <td><img src="https://cdn-icons-png.flaticon.com/128/3595/3595455.png" width="50"></td>
+                        <td>
+                            <input type="checkbox">
+                            Hawaiian (150.00 ₹ <del>170.00₹</del>)
+                        </td>
+                        <td>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="https://cdn-icons-png.flaticon.com/128/1404/1404945.png" width="50"></td>
+                        <td>
+                            <input type="checkbox">
+                            Pepperoni (140.00 ₹ <del>160.00₹</del>)
+                        </td>
+                        <td>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="https://cdn-icons-png.flaticon.com/128/6978/6978255.png" width="50"></td>
+                        <td>
+                            <input type="checkbox">
+                            Vegetable (130.00 ₹ <del>150.00₹</del>)
+                        </td>
+                        <td>
+                            <select>
+                                <option>1</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Extra Details -->
+                <h2><i>Extra Details: ↓</i></h2>
+
+                <table>
+
+                    <tr>
+                        <td>💳</td>
+                        <td><b>Credit Card:</b></td>
+                        <td><input type="text" placeholder="1234-5678-9123-1111"></td>
+                        <td><button type="button">Verify Card</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>📍</td>
+                        <td><b>Pin:</b></td>
+                        <td><input type="text" placeholder="421604"></td>
+                    </tr>
+
+                    <tr>
+                        <td>🖼️</td>
+                        <td><mark><b>Upload photo for discount:</b></mark></td>
+                        <td><input type="file"></td>
+                    </tr>
+
+                    <tr>
+                        <td>📝</td>
+                        <td><mark><b>Additional Note:</b></mark></td>
+                        <td>
+                            <textarea rows="4" cols="30">
+If any additional Requirement There Please Mention Here.
+                            </textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>⭐</td>
+                        <td><mark><b>Rating:</b></mark></td>
+                        <td><input type="range"></td>
+                    </tr>
+
+                </table>
+
+                <br><br>
+
+                <button type="submit" style="margin-left:400px;">Submit Order</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

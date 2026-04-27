@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2 form</title>
+</head>
+<body>
+
+
+    
+        <form action="">
+            <fieldset>
+            <legend><mark>Job Application Form</mark></legend>
+
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required >
+        <br>
+        <br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="gender">Gender :</label>
+        
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        
+        <label for="other">Other</label>  
+        <input type="radio" id="other" name="gender" value="other">  
+        <br>
+        <br>
+
+        <label for="skills">Skills :</label>
+        
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label> 
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="javascript" name="skills" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="skills" id="react" value="react">
+        <label for="react">React</label>
+
+
+        <br>
+        <br>
+
+        <label for="contact">Contact No :</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" minlength="10" maxlength="10">
+        <br>
+        <br>
+
+        <label for="resume">Resume :</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+        <br>
+        <br>
+        <label for="">Date of Joining :</label>
+        <input type="date" id="" name="" min="2026-05-01" max="2026-05-15">
+
+        <br>
+        <br>
+        <label for="">Branch: </label>
+        <select name="" id="">
+            <option value="">Select Branch</option>
+            <option value="">CSE</option>
+            <option value="">ECE</option>
+            <option value="">MECH</option>
+            <option value="">CIVIL</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Department: </label>
+        <select name="" id="">
+            <optgroup label="Managemrent">
+                <option value="">BBA</option>
+                <option value="">MBA</option>
+
+            </optgroup>
+            <optgroup label="Engineering">
+                <option value="">ECE</option>
+                <option value="">CSE</option>
+                <option value="">CIVIL</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+
+        <details>
+        <!-- <details open> -->
+            <summary>Upcomming Drives....</summary>
+            <p>TCS</p>
+            <p>Infosys</p>
+            <p>Wipro</p>
+            <p>HCL</p>
+
+            
+        </details>
+        <br>
+        <!-- Slider -->
+        <label for="">Experience :</label>
+        <!-- <input type="range" id="" name="" min="0" max="10"> -->
+         <input type="range" id="" name="" step="10">
+        <br>
+        <br>
+        Time Slot : <input type="time" name="" id=""><br><br>
+        <input type="color" name="" id="">
+        <br><br>
+
+
+        <label for="">Address</label><br>
+        <textarea name="" id=""></textarea>
+
+        <br><br>
+
+        <label for="">Fees</label>
+        <!-- <input type="text" name="" id="" min="0" max="100000" readonly> -->
+        <input type="text" name="" id="" min="0" max="100000">
+        <br><br>
+
+        <!-- <button>Submit</button> -->
+        <input type="submit" value="Login" >
+        <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    
+
+
+</body>
+</html>

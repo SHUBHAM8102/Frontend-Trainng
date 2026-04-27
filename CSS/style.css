@@ -1,0 +1,182 @@
+/* !-- selectors */
+/* !-- simple selectors */
+/* id , class , tagname, grouping selectors */
+
+/* #head1{
+    background-color: rebeccapurple;
+    color: beige;
+}
+.head{
+    background-color: red;
+    color: wheat;
+}
+h1{
+    background-color: blue;
+    color: azure;
+} */
+ /* grouping selector */
+ /* h1,p,h3{
+    background-color: lavender;
+    color: blueviolet;
+ } */
+ /* universal selector */
+ /* *{
+    background-color: grey;
+    color: aquamarine;
+ } */
+
+ /*  !-- combinator selectors */
+
+
+ /* descendant selector'
+( it will target direct and indirect child elements) */
+ /* div p{
+    background-color: rgb(143, 58, 58);
+    color: rgb(236, 240, 242);
+ } */
+
+    /* child selector
+    ( it will target direct child elements only) */
+     /* div>h2{
+        background-color: rgb(58, 93, 143);
+        color: rgb(236, 240, 242);
+     } */
+        /* adjacent sibling selector
+        ( it will target the next sibling only) */
+            /* h2+p{
+                background-color: rgb(200, 137, 54);
+                color: rgb(236, 240, 242);
+            } */
+                /* general sibling selector
+                ( it will target all the next siblings) */
+                /* h2~p{
+                    background-color: rgb(58, 143, 93);
+                    color: rgb(236, 240, 242);
+                } */
+
+
+
+                /*!-- psudo class selectors  */
+                /* a:link{
+                    color: red;
+                }
+                a:visited{
+                    color: green;
+                }
+                a:hover{
+                    color: blue;
+                }
+                a:active{
+                    color: aqua;
+                } */
+               /* input:focus{
+                    background-color: black;
+                    color: white;
+               } */
+               /* input:checked{
+                    background-color: rgb(234, 22, 22);
+                    color: white;
+               } */
+                /* input:disabled{
+                    background-color: rgb(22, 234, 22);
+                    color: white;   
+                } */
+
+                /* Pseudo-element selectors */
+                /* h1::first-letter{
+                    font-size: 40px;
+                    color: red;
+                }
+                p::first-line{
+                    font-size: 20px;
+                    color: blue;
+                }    */
+
+                /* emojis */
+                /* h1::before{
+                    content: "😀";
+                }   
+                h1::after{
+                    content: "😀";
+                }
+                /* change the background color of selected text */
+                /* p::selection{
+                    background-color: rgb(17, 113, 113);
+                    color: white;
+                }
+                li::marker{
+                    content:"⭐";
+                }
+                input::placeholder{
+                    color: red;
+                }    */ 
+
+                /* --- Units */
+                /* div{
+                    width: 600px;
+                    height: 400px;
+                    width: 600vw;
+                    height: 400vh;
+                    background-color: orange;
+                    font-size: 40px;
+                }
+                main{
+                    height: 200px;
+                    width: 200px;
+                    background-color: rgb(13, 114, 98);
+                    font-size: 2em;
+                }  */
+                /* html day4.html */
+                /* *{
+                    margin: 0;
+                    padding: 0;
+                    
+                }
+
+                div{
+                    width: 200vw;
+                    height: 200vh;
+                    background-color: rgb(13, 114, 98);
+                }
+                button{
+                    background-color: rebeccapurple;
+                    color: aquamarine;
+                    margin: 10px;
+                    padding: 10px;
+                    border: 15px solid black ;
+                }
+                article{
+                    width: 100px;
+                    height: 100px;
+                    background-color: rgb(255, 0, 0);
+                    margin: auto;
+                   
+                   
+                }  */
+
+                /* color types */
+                /*color name, rgb,rgba,hsl,hsla,hashvalue */
+
+                /* h1{
+                    background-color: rgba(139, 123, 130, 0.807);
+                } */
+                 h1{
+                    background-color: hsl(160, 40%, 41%);
+                 }
+/* 
+                 *{
+                    margin: 0;
+                    padding: 0;
+                 }
+                  div{
+                    height: 100px;
+                    width: 100px;
+                    background-color: rgba(205, 121, 121, 0.699);
+                    border: 5px solid black;
+                    border-radius: 50%;
+                    padding: 29px;
+                    margin: 20px;
+                  } */
+
+
+               

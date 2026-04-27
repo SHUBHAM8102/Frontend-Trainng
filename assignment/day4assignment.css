@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, serif;
+    margin: 30px;
+}
+
+/* Headings */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Main list */
+.main-list {
+    list-style-type: disc;
+    color: orange;
+    font-size: 20px;
+}
+
+/* Nested list */
+.sub-list {
+    list-style-type: circle;
+    color: black;
+    font-size: 18px;
+}
+
+/* Paneer color */
+.highlight {
+    color: rgb(25, 175, 175);
+}
+
+/* Sugar sub-items in red */
+.red {
+    color: rgb(181, 61, 61);
+}
+.new-list{
+    color: rgb(16, 104, 75);
+}

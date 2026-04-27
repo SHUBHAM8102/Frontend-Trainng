@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hamburger{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+#toggle{
+    display: none;
+}
+/* Media query for small screens like mobiles */
+@media (max-width: 767px){
+    .menu{
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 100%;
+    }
+    #toggle:checked + .hamburger + .menu{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+    
+}
